@@ -1,6 +1,5 @@
 #include <iostream>
-using std::cout;
-using std::cin;
+using namespace std;
 
 // Print a rectangle of '*' characters
 int main(){
@@ -16,5 +15,6 @@ int main(){
     {
       cout<<"*";
     }
+    cout<<"\n";
   }
 }
